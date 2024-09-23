@@ -1,0 +1,35 @@
+{
+    "name": "laravel-mix-pack",
+    "version": "2.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:MistakeCoder/Laravel-Mix-Package.git",
+    "author": "mistake <minhle26022002@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.3.3",
+        "jquery": "^3.7.1",
+        "jquery-lazy": "^1.7.11",
+        "owl.carousel": "^2.3.4",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^3.0.2",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.49",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.79.3",
+        "sass-loader": "^16.0.2",
+        "vue-template-compiler": "^2.7.16"
+    }
+}

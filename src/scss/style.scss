@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a, a:hover {
+  text-decoration: none;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
